@@ -18,13 +18,8 @@ Please explain the problem-solving steps and answer in a tone that a high school
 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
-First balcony	    Second balcony	
-        100  
-        150  
-        190  
-        210  
-        250  
-        300"
+First balcony: [100, 150, 190, 210, 250, 300]  
+Second balcony: [100, 150, 190, 210, 250, 300]"
 
 **Output:**  
 "Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each).
