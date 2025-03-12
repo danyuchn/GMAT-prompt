@@ -14,17 +14,12 @@ If you were the question creator, what specific mathematical concepts would you 
 
 ## Example
 **Input:**  
-"A certain theater has 500 seats. Some are on the main floor and sell for $50 each; some are in the first balcony and sell for $45 each; and the rest are in the second balcony and sell for $35 each. When all of the seats are sold for a performance, the gross revenue for that performance is $20,900. Of the three seating areas, the second balcony has the most seats.
+"A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
-First balcony	    Second balcony
-		100  
-		150  
-		190  
-		210  
-		250  
-		300"
+First balcony: [100, 150, 190, 210, 250, 300]  
+Second balcony: [100, 150, 190, 210, 250, 300]"
 
 **Output:**  
 "If I were the question creator, I would like to test the following specific mathematical concepts:
