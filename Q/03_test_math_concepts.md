@@ -19,7 +19,6 @@ If you were the question creator, what specific mathematical concepts would you 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
 First balcony	    Second balcony
-
 		100  
 		150  
 		190  
