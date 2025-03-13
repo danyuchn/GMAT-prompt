@@ -14,49 +14,53 @@ Please explain the problem-solving steps and answer in a tone that a high school
 
 ## Example
 **Input:**  
-"A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
+"A particular store has various cell phones in stock.
 
-Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
+Of all cell phones in stock:
+Most are sold at a discounted price if purchased with a new or renewed service contract.
+More are dial pad phones (phones with integrated mechanical pads for entering numbers) than are touch screen-only phones (phones without integrated mechanical pads for entering numbers).
 
-First balcony: [100, 150, 190, 210, 250, 300]  
-Second balcony: [100, 150, 190, 210, 250, 300]"
+Of the dial pad phones:
+Most have screens smaller than 8 centimeters (cm), measured diagonally.
+Most are packaged with two or more accessories.
+
+Of the touch screen-only phones:
+Most have screens 8 cm or larger.
+Most are packaged with two or more accessories.
+
+Statement to be completed: Given the information regarding the cell phones in stock at the store, it follows that, of those that ___1___, fewer than half ___2___.
+
+Based on the information provided, select for 1 and for 2 the options that most accurately complete the statement above. Make only two selections, one in each column.
+1	2	
+		are touch screen-only phones
+		have screens 8 cm or larger
+		are purchased without a service contract
+		are available at a discounted price with a service contract
+		are packaged with fewer than two accessories
+
+Please explain the problem-solving steps and answer in a tone that a high school student can understand."
+
 
 **Output:**  
-"Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each).
+"**Step-by-Step Explanation:**
 
-1. **Total Seats Equation:**  
-   \( x + y + z = 500 \)
+1. **Identify Key Groups:**  
+   The passage distinguishes two types of phones:
+   - **Dial pad phones:** Most have screens smaller than 8 cm and most come with two or more accessories.
+   - **Touch screen-only phones:** Most have screens 8 cm or larger and most come with two or more accessories.
 
-2. **Revenue Equation:**  
-   \( 50x + 45y + 35z = 20,900 \)
+2. **Interpreting “Most” and “Fewer than Half”:**  
+   For both groups, the statement “most are packaged with two or more accessories” implies that fewer than half are packaged with fewer than two accessories.
 
-3. **Substitute:**  
-   Express \(x\) as:  
-   \( x = 500 - y - z \)  
-   Substitute into the revenue equation:  
-   \( 50(500 - y - z) + 45y + 35z = 20,900 \)
+3. **Choosing the Correct Subset (Column 1):**  
+   Among the options, “are touch screen-only phones” clearly identifies a specific subset. Although the passage gives details about both groups, selecting touch screen-only phones works best because:
+   - We know that most of these phones are packaged with two or more accessories.
+   - This directly implies that fewer than half of the touch screen-only phones come with fewer than two accessories.
 
-4. **Simplify the Equation:**  
-   Multiply out and combine like terms:  
-   \( 25,000 - 50y - 50z + 45y + 35z = 20,900 \)  
-   \( 25,000 - 5y - 15z = 20,900 \)
+4. **Choosing the Minority Property (Column 2):**  
+   “Are packaged with fewer than two accessories” is the property that, according to the passage, applies to less than half of each phone type. Since most touch screen-only phones have at least two accessories, the minority (fewer than half) will have fewer than two accessories.
 
-5. **Solve for \(y\):**  
-   Subtract 25,000 from both sides:  
-   \( -5y - 15z = -4,100 \)  
-   Multiply by \(-1\):  
-   \( 5y + 15z = 4,100 \)  
-   Divide by 5:  
-   \( y + 3z = 820 \) ->  \( y = 820 - 3z \)
-
-7. **Choose Valid Values:**  
-   Given the choices for \(z\) (second balcony) include 100, 150, 190, 210, 250, and 300, test \(z = 210\):  
-   \( y = 820 - 3(210) = 820 - 630 = 190 \)  
-   Then calculate \(x\):  
-   \( x = 500 - 190 - 210 = 100 \)  
-   Since \(z = 210\) is greater than both \(y = 190\) and \(x = 100\), the condition that the second balcony has the most seats is satisfied.
-
-Thus, the correct selections are:  
-**First balcony: 190 seats**  
-**Second balcony: 210 seats**
+5. **Final Statement Completion:**  
+   Putting these together, the statement becomes:  
+   *“Given the information regarding the cell phones in stock at the store, it follows that, of those that **are touch screen-only phones**, fewer than half **are packaged with fewer than two accessories**.”
 
