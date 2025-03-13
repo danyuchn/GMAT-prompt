@@ -19,7 +19,6 @@ Each step must include a clear cue that leads to the next step and follow a line
 - Candidates needing advanced strategies and real exam practice.
 - Test takers who wish to master either pre-writing or elimination techniques.
 
-```markdown
 ## Example
 
 **Input:**  
