@@ -1,4 +1,4 @@
-# AI Instruction: Provide a Detailed Quick Solving Shortcut Within 6 Minutes (RC&MSR)
+# AI Instruction: Provide a Detailed Quick Solving Shortcut Within N Minutes
 
 ## Instruction
 Please provide a shortcut method that enables a human to solve a problem quickly within N minutes. The method should follow these steps:  
@@ -12,10 +12,10 @@ Each step must provide a clear clue that leads to the next step and must follow 
 **Note:** "N minutes" is variable depending on the number of questions you give. 2 minutes per question is personally suggested.
 
 ## Function
-Provide a quick solving shortcut for MSR problems by using a linear reasoning process to sort out key points from the passage and their relationship to the questions, along with detailed option analysis.
+Provide a quick solving shortcut for RC problems by using a linear reasoning process to sort out key points from the passage and their relationship to the questions, along with detailed option analysis.
 
 ## Suitable For
-- Test takers with low reading and problem-solving efficiency in RC or MSR.
+- Test takers with low reading and problem-solving efficiency in RC.
 - Those who struggle to quickly pinpoint key points in the passage and relate them to the questions.
 - Candidates needing advanced strategies for real exam scenarios.
 - Test takers who wish to master detailed option analysis and pre-writing reasoning.
