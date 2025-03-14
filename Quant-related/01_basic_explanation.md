@@ -4,7 +4,7 @@
 Please explain the problem-solving steps and answer in a tone that a high school student can understand.
 
 ## Function
-- Break down the solution steps for various GMAT problem types in simple language and provide detailed answer explanations.
+Break down the solution steps for various GMAT problem types in simple language and provide detailed answer explanations.
 
 ## Suitable For
 - GMAT test-takers with a weak foundation.
@@ -14,15 +14,19 @@ Please explain the problem-solving steps and answer in a tone that a high school
 
 ## Example
 **Input:**  
-"A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
+
+```
+A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
 First balcony: [100, 150, 190, 210, 250, 300]  
-Second balcony: [100, 150, 190, 210, 250, 300]"
+Second balcony: [100, 150, 190, 210, 250, 300]   
+```
 
 **Output:**  
-"Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each).
+
+Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each).
 
 1. **Total Seats Equation:**  
    \( x + y + z = 500 \)
@@ -59,4 +63,5 @@ Second balcony: [100, 150, 190, 210, 250, 300]"
 Thus, the correct selections are:  
 **First balcony: 190 seats**  
 **Second balcony: 210 seats**
+
 
