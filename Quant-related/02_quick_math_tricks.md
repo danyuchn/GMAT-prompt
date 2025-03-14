@@ -6,7 +6,7 @@ Provide a shortcut method that a human can solve a math problem in N minutes usi
 **Note:** "N minutes" is variable depending on the problem type (e.g., Q: 2 minutes, DS: 1.5-2 minutes).
 
 ## Function
-- Offer a quick math shortcut that minimizes computation, enhances exam efficiency, and simplifies calculations.
+Offer a quick math shortcut that minimizes computation, enhances exam efficiency, and simplifies calculations.
 
 ## Suitable For
 - Candidates with a basic foundation but slow problem-solving speed.
@@ -16,15 +16,20 @@ Provide a shortcut method that a human can solve a math problem in N minutes usi
 
 ## Example
 **Input:**  
-"A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
+```
+A certain theater has 500 seats. Some are on the main floor and sell for \$50 each; some are in the first balcony and sell for \$45 each; and the rest are in the second balcony and sell for \$35 each. When all of the seats are sold for a performance, the gross revenue for that performance is \$20,900. Of the three seating areas, the second balcony has the most seats.
 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
 First balcony: [100, 150, 190, 210, 250, 300]  
-Second balcony: [100, 150, 190, 210, 250, 300]"
+Second balcony: [100, 150, 190, 210, 250, 300]  
+
+Provide a shortcut method that a human can solve a math problem in 3 minutes using only paper, pencil, and visual estimation. The principle is: the fewer calculations, the simpler the numbers, and the simpler and fewer the formulas, the better. If substituting numbers or using visual guessing is simpler, feel free to adopt that approach.
+```
 
 **Output:**  
-"Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each). We have two key pieces of information:
+
+Let \(x\) be the number of main floor seats (\$50 each), \(y\) be the number of first balcony seats (\$45 each), and \(z\) be the number of second balcony seats (\$35 each). We have two key pieces of information:
 1. Total seats:  
    \[
    x + y + z = 500
@@ -74,4 +79,4 @@ Thus, the correct selections are:
 **First balcony: 190 seats**  
 **Second balcony: 210 seats**
 
-This method minimizes computations by focusing on the revenue shortfall per seat and using a quick substitution with intelligent guessing."
+This method minimizes computations by focusing on the revenue shortfall per seat and using a quick substitution with intelligent guessing.

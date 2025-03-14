@@ -4,7 +4,7 @@
 From the given set of questions, please find those that use similar mathematical concepts as the current problem.
 
 ## Function
-- Filter and select questions from a question bank that share similar mathematical concepts with the current problem, assisting candidates in targeted practice.
+Filter and select questions from a question bank that share similar mathematical concepts with the current problem, assisting candidates in targeted practice.
 
 ## Suitable For
 - Test-takers who are unsure which problems are related to the current learning objective.
@@ -14,7 +14,8 @@ From the given set of questions, please find those that use similar mathematical
 
 ## Example
 **Input:**   
-"A certain theater has 500 seats. Some are on the main floor and sell for $50 each; some are in the first balcony and sell for $45 each; and the rest are in the second balcony and sell for $35 each. When all of the seats are sold for a performance, the gross revenue for that performance is $20,900. Of the three seating areas, the second balcony has the most seats.
+
+```A certain theater has 500 seats. Some are on the main floor and sell for $50 each; some are in the first balcony and sell for $45 each; and the rest are in the second balcony and sell for $35 each. When all of the seats are sold for a performance, the gross revenue for that performance is $20,900. Of the three seating areas, the second balcony has the most seats.
 
 Select for First balcony a number of seats in this theater’s first balcony and select for Second balcony a number of seats in this theater’s second balcony such that the selections are jointly consistent with the information provided. Make only two selections, one in each column.
 
@@ -27,9 +28,12 @@ First balcony  Second balcony 
         250  
         300
 
-From the given set of questions, please find those that use similar mathematical concepts as the current problem."
+From the given set of questions, please find those that use similar mathematical concepts as the current problem.   
+```
 
-Fast food restaurant sells sandwiches. There are five ingredients with the following choices:  
+**A Small item bank as input:**
+
+```Fast food restaurant sells sandwiches. There are five ingredients with the following choices:  
 Bread: A, B, C  
 Meat: beef, turkey, ham  
 Cheese: Sweden cheese, American cheese, or no cheese  
@@ -66,13 +70,14 @@ There are three types of coins: 5 cent, 10 cent, and 25 cent. The total amount i
 Given that 1/(N + 1) < (1/31) + (1/32) + (1/33) < 1/N, find N.
 
 ---  
-There are three types of apples: A, B, and C. Apple A costs $42 per dozen, and Apple B costs $270 per box of 100 apples. A crate of apples contains A, B, and C in the ratio 1:2:3, with 150 apples of type C. The crate is sold at an average of $35 per dozen, and the profit is 25% of the cost. Find the cost per apple of type C.
+There are three types of apples: A, B, and C. Apple A costs $42 per dozen, and Apple B costs $270 per box of 100 apples. A crate of apples contains A, B, and C in the ratio 1:2:3, with 150 apples of type C. The crate is sold at an average of $35 per dozen, and the profit is 25% of the cost. Find the cost per apple of type C.  
+```
 
----
+
 
 **Output (Example):**
 
-### Analysis and Selection
+**Analysis and Selection**
 
 The original theater seating problem involves key mathematical concepts:
 - Establishing two linear equations to represent the total number of seats and the total revenue.
