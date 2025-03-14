@@ -26,14 +26,13 @@ Like product defects, industrial pollution often reveals flaws in product design
 (B) Financial ramifications of keeping pollution control costs low
 (C) Opportunities to stop pollution before it begins
 (D) Possibilities lost because of pollution
-(E) Costs to industries of preventing pollution
+(E) Costs to industries of preventing pollution"
 
-----
-
-Please create a mind map of the passage itself."
+"Please create a mind map of the passage itself."
 
 **Output:**  
 
+```
                          [Environmental Improvement]
                                     │
           ┌─────────────────────────┴─────────────────────────┐
@@ -91,4 +90,6 @@ Please create a mind map of the passage itself."
           └─────────────────────────┬─────────────────────────┘
                                     │
                           [Eliminate Unneeded Activities]
+
+```
 
