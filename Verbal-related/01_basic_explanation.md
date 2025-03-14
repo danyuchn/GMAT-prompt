@@ -4,7 +4,7 @@
 Please explain the problem-solving steps and answer in a tone that a high school student can understand.
 
 ## Function
-- Break down the solution steps for various GMAT problem types in simple language and provide detailed answer explanations.
+Break down the solution steps for various GMAT problem types in simple language and provide detailed answer explanations.
 
 ## Suitable For
 - GMAT test-takers with a weak foundation.
@@ -14,7 +14,7 @@ Please explain the problem-solving steps and answer in a tone that a high school
 
 ## Example
 **Input:**  
-"A particular store has various cell phones in stock.
+```A particular store has various cell phones in stock.
 
 Of all cell phones in stock:
 Most are sold at a discounted price if purchased with a new or renewed service contract.
@@ -39,10 +39,10 @@ Based on the information provided, select for 1 and for 2 the options that most 
 		are packaged with fewer than two accessories
 
 Please explain the problem-solving steps and answer in a tone that a high school student can understand."
+```
 
 
 **Output:**  
-"**Step-by-Step Explanation:**
 
 1. **Identify Key Groups:**  
    The passage distinguishes two types of phones:
@@ -63,4 +63,3 @@ Please explain the problem-solving steps and answer in a tone that a high school
 5. **Final Statement Completion:**  
    Putting these together, the statement becomes:  
    *“Given the information regarding the cell phones in stock at the store, it follows that, of those that **are touch screen-only phones**, fewer than half **are packaged with fewer than two accessories**.”
-

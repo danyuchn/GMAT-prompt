@@ -1,4 +1,4 @@
-# AI Instruction: Provide a Quick Solving Shortcut Within N Minutes
+# AI Instruction: Provide a Quick Solving Shortcut Within N Minutes (for CR & TPA non-math related)
 
 ## Instruction
 Please provide a shortcut method that enables a human to solve a problem quickly within N minutes. The principle is as follows:  
@@ -11,7 +11,7 @@ Each step must include a clear cue that leads to the next step and follow a line
 
 
 ## Function
-- Offer a quick solving shortcut for CR and TPA verbal problems by optimizing the solving process through a linear reasoning approach.
+Offer a quick solving shortcut for CR and TPA verbal problems by optimizing the solving process through a linear reasoning approach.
 
 ## Suitable For
 - Test takers who solve CR or TPA verbal problems slowly.
@@ -22,7 +22,7 @@ Each step must include a clear cue that leads to the next step and follow a line
 ## Example
 
 **Input:**  
-"Of all cell phones in stock:
+```Of all cell phones in stock:
 Most are sold at a discounted price if purchased with a new or renewed service contract.
 More are dial pad phones (phones with integrated mechanical pads for entering numbers) than are touch screen-only phones (phones without integrated mechanical pads for entering numbers).
 
@@ -50,10 +50,8 @@ Please provide a shortcut method that enables a human to solve a problem quickly
 2. Next, tell me which parts of the passage are relevant information and which are not.  
 3. Then, indicate whether to use a pre-writing (pre-answer drafting) strategy or an elimination strategy to answer the question.  
 Each step must include a clear cue that leads to the next step and follow a linear, unidirectional human thought process."
-
+```
 **Output (Example):**  
-
-**Step-by-Step Shortcut Method**
 
 1. **Read & Identify Key Elements**  
    - **Cue:** Notice the two separate pieces of information: one about service contracts and phone types, and another about screen sizes and accessory packaging.  

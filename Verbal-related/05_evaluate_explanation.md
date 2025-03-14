@@ -4,7 +4,7 @@
 Here is my verbal explanation of the problem-solving process. Please identify any errors in my approach and suggest improvements.
 
 ## Function
-- Analyze the candidate's verbal explanation of their problem-solving process, point out mistakes, and provide suggestions for improvement, helping to solidify a consistent problem-solving strategy.
+Analyze the candidate's verbal explanation of their problem-solving process, point out mistakes, and provide suggestions for improvement, helping to solidify a consistent problem-solving strategy.
 
 **Note:** Users can use voice recognition applications such as **Whisper Desktop** or **Mac Whisper** to convert their verbal problem-solving recordings into text.
 
@@ -16,7 +16,8 @@ Here is my verbal explanation of the problem-solving process. Please identify an
 ## Example
 **Input:**  
 
-" A particular store has various cell phones in stock.
+(Target Question)
+```A particular store has various cell phones in stock.
 
 Of all cell phones in stock:
 Most are sold at a discounted price if purchased with a new or renewed service contract.
@@ -39,16 +40,22 @@ Based on the information provided, select for 1 and for 2 the options that most 
 		are purchased without a service contract  
 		are available at a discounted price with a service contract  
 		are packaged with fewer than two accessories"  
+    ```
   
-"Alright, let’s tackle this question. So, I’ll first take a look at the problem. Uh, the question says something about using the info from the text. It’s talking about phones in a store, and then, uh, among the phones in the first category, less than half are in the second category. Okay, let me check the problem again. So, it says, uh, most of the phones are discounted, right? If you buy them with a contract, they’re discounted. And then it says most—well, even more phones—uh, first off, most phones are discounted with a contract. Then it says, uh, if they’re phones with keyboards, there are more of those—more keyboard phones than touchscreen ones. Alright, so that’s one part. 
+(Transcripts from recording)
+
+```Alright, let’s tackle this question. So, I’ll first take a look at the problem. Uh, the question says something about using the info from the text. It’s talking about phones in a store, and then, uh, among the phones in the first category, less than half are in the second category. Okay, let me check the problem again. So, it says, uh, most of the phones are discounted, right? If you buy them with a contract, they’re discounted. And then it says most—well, even more phones—uh, first off, most phones are discounted with a contract. Then it says, uh, if they’re phones with keyboards, there are more of those—more keyboard phones than touchscreen ones. Alright, so that’s one part. 
 
 Then the second part says, uh, most phones have screens smaller than 8 centimeters. And then keyboard phones, most of them come with 2 to 3 accessories. After that, it’s about touchscreen phones—touchscreen phones mostly have screens 8 centimeters or larger, and most of them also have, like, 2 to 3 accessories or more. Okay, cool. 
 
 So, after reading this, let’s think it through again. We need to find a base group first, right? Like a total pool, and then figure out what ‘less than half’ refers to based on that. Alright, so based on the info in the text, the base group could either be all the phones, or maybe just the ones with keyboards, or maybe the touchscreen ones without keyboards, right? So, on the left side here, it’s gotta be either ‘touchscreen only’ or, uh, let’s see—maybe ‘with a contract’? No, I’m not sure about that one yet. 
 
-Okay, then, uh, for this part, I think I’d first pick the touchscreen ones. And with touchscreen phones, the text says most of them have 2 to 3 accessories or more. So, let me see—kinda unsure here. If it’s touchscreen, then most of them should be bigger, right? So for the second part, I’d choose ‘half screens 8cm or larger.’ Alright, so my first pick is touchscreen phones, and the second is 8 centimeters or larger. Okay, I’m done with this question!"
+Okay, then, uh, for this part, I think I’d first pick the touchscreen ones. And with touchscreen phones, the text says most of them have 2 to 3 accessories or more. So, let me see—kinda unsure here. If it’s touchscreen, then most of them should be bigger, right? So for the second part, I’d choose ‘half screens 8cm or larger.’ Alright, so my first pick is touchscreen phones, and the second is 8 centimeters or larger. Okay, I’m done with this question!
+```
 
-“Analyze the candidate's verbal explanation of their problem-solving process, point out mistakes, and provide suggestions for improvement, helping to solidify a consistent problem-solving strategy”
+```
+Analyze the candidate's verbal explanation of their problem-solving process, point out mistakes, and provide suggestions for improvement, helping to solidify a consistent problem-solving strategy
+```
 
 
 **Output (Example):**  
@@ -105,6 +112,3 @@ Okay, then, uh, for this part, I think I’d first pick the touchscreen ones. An
 
 - **Practice Formal Language:**  
   Reduce filler words and verbal hesitations. Use precise academic language to maintain clarity and professionalism in reasoning.
-
-
-

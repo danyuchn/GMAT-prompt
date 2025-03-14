@@ -1,20 +1,21 @@
-# Identifying Features for Applying a Specific Solution
+# AI Instruction: Create a Mind Map of the Article
 
 ## Instruction
-In future problem statements, what characteristics should be present to apply this particular solution method?
+Please create a mind map of the passage itself.
 
 ## Function
-- Summarize the features of problem statements that make a specific solution method applicable, helping candidates to recognize patterns and apply methods effectively.
+Draw a visual mind map for RC and MSR passages to help candidates understand and organize the logical structure of the article.
 
 ## Suitable For
-- Test-takers who have difficulty identifying problem patterns.
-- Candidates unsure about the scope of a solution method.
-- Those looking to enhance their ability to adapt solution strategies.
-- Applicable to math-related problems in Q, DS, TPA, MSR.
+- Test takers who are not familiar with the article's logical structure.
+- Those who have difficulty quickly grasping the overall structure and key points of the passage.
+- Candidates who need a visual tool to assist in comprehending the article.
 
 ## Example
 **Input:**  
-"Industry's environmental improvement efforts have traditionally focused on pollution control through identifying, processing, and disposing of discharges or waste. Recently, more progressive companies have embraced the concept of pollution prevention, using such methods as material substitution and closed-loop processes to prevent pollution. Regardless of their approach to dealing with pollution, however, many companies view pollution treatment or control as too expensive. But companies must learn to view environmental improvement in terms of efficient use of resources and to recognize that pollution has “opportunity costs”—wasted resources, wasted effort, and diminished product value for customers.
+
+```
+Industry's environmental improvement efforts have traditionally focused on pollution control through identifying, processing, and disposing of discharges or waste. Recently, more progressive companies have embraced the concept of pollution prevention, using such methods as material substitution and closed-loop processes to prevent pollution. Regardless of their approach to dealing with pollution, however, many companies view pollution treatment or control as too expensive. But companies must learn to view environmental improvement in terms of efficient use of resources and to recognize that pollution has “opportunity costs”—wasted resources, wasted effort, and diminished product value for customers.
 
 This view of pollution as resulting from inefficient use of resources evokes the history of the “quality revolution” of the 1980s. Before that revolution, many managers believed that improving product quality was prohibitively expensive because it could be achieved only through additional inspections and reworking of “inevitable” product defects. What lay behind the old view was the assumption that both product design and production processes were unalterable. As a result of the quality revolution, companies now view defects as a sign of inefficient product and process design, not as an inevitable by-product of manufacturing.
 
@@ -26,9 +27,13 @@ Like product defects, industrial pollution often reveals flaws in product design
 (B) Financial ramifications of keeping pollution control costs low
 (C) Opportunities to stop pollution before it begins
 (D) Possibilities lost because of pollution
-(E) Costs to industries of preventing pollution"
+(E) Costs to industries of preventing pollution
 
-"Please create a mind map of the passage itself."
+----
+
+Please create a mind map of the passage itself.
+
+```
 
 **Output:**  
 
