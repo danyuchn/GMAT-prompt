@@ -1,7 +1,5 @@
 # GMAT-prompt
 
-# GMAT Prompt Study Notes
-
 This repository compiles AI prompts I developed as a GMAT instructor. Whether you’re a beginner with a weak foundation, an advanced test-taker aiming to solve problems quickly, a repeat examinee unsure of your weaknesses, or an educator looking to enhance GMAT teaching methods, you’ll find practical solutions tailored to your needs here!
 
 ## Features
