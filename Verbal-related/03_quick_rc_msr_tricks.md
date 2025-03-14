@@ -20,7 +20,7 @@ Provide a quick solving shortcut for MSR problems by using a linear reasoning pr
 - Candidates needing advanced strategies for real exam scenarios.
 - Test takers who wish to master detailed option analysis and pre-writing reasoning.
 
-## Example 
+## Example 1
 **Input:**  
 ```Industry's environmental improvement efforts have traditionally focused on pollution control through identifying, processing, and disposing of discharges or waste. Recently, more progressive companies have embraced the concept of pollution prevention, using such methods as material substitution and closed-loop processes to prevent pollution. Regardless of their approach to dealing with pollution, however, many companies view pollution treatment or control as too expensive. But companies must learn to view environmental improvement in terms of efficient use of resources and to recognize that pollution has “opportunity costs”—wasted resources, wasted effort, and diminished product value for customers.
 
@@ -46,7 +46,7 @@ Please provide a shortcut method that enables a human to solve a problem quickly
 5. If pre-writing is chosen, please detail the reasoning process step-by-step.  
 Each step must provide a clear clue that leads to the next step and must follow a linear, unidirectional thought process. Also, provide a detailed explanation for the judgment on each option. demonstrate each step using the passage given."
 ```
-**Output (Example):**  
+**Output:**  
 
 **1. Identify Key Information**  
 
