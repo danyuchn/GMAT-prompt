@@ -1,4 +1,4 @@
-# Quick Math Shortcut for 3-Minute Problem Solving
+# Quick Math Shortcut for N-Minute Problem Solving
 
 ## Instruction
 Provide a shortcut method that a human can solve a math problem in N minutes using only paper, pencil, and visual estimation. The principle is: the fewer calculations, the simpler the numbers, and the simpler and fewer the formulas, the better. If substituting numbers or using visual guessing is simpler, feel free to adopt that approach.

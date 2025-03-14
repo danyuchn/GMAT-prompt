@@ -10,7 +10,12 @@ Please explain the problem-solving steps and answer in a tone that a high school
 ## Function
 Break down the solution steps for various GMAT problem types in simple language and provide detailed answer explanations.
 
-**Note:** Since LLMs are currently less sensitive to image recognition compared to pure text, the generated answers may contain errors. Educators and learners should focus on the problem-solving process rather than the final answer.
+**Note:** Since LLMs are currently less sensitive to image recognition compared to pure text, the generated answers may contain errors. Educators and learners should focus on the problem-solving process rather than the final answer and try to tell LLMs 
+
+```
+no, the correct answer is ___. Please correct your thoughts.
+``` 
+whenever it produces response directing to wrong answer.
 
 ## Suitable For
 - GMAT test-takers with a weak foundation.
@@ -22,7 +27,7 @@ Break down the solution steps for various GMAT problem types in simple language 
 **Input:**  
 ![ ](images/graph_1.png)
 
-At the end of last semester, all 33 students (11 from each of 3 sections) of a particular course were asked how many hours per week they spent studying for the course. This data was combined with the number of points earned by each student in the course. This information is presented in the graph.
+```At the end of last semester, all 33 students (11 from each of 3 sections) of a particular course were asked how many hours per week they spent studying for the course. This data was combined with the number of points earned by each student in the course. This information is presented in the graph.
 
 Grades in the course were calculated using a 20-point scale. To compute the grade, the number of points earned in the course was divided by 50 and then rounded up to the next whole number.
 
@@ -32,11 +37,11 @@ The median reported time spent studying for all students in the course was______
 
 Choices: 2 / 2.5 / 3 / 3.5
 Section________ had the smallest average (arithmetic mean) reported time spent studying per week.
-Choices: A / B / C
+Choices: A / B / C```
 
 ---
 Please explain the problem-solving steps and answer in a tone that a high school student can understand.
-"
+```
 
 **Output:**  
 
@@ -45,7 +50,7 @@ The median is the middle number when all data points are listed in ascending ord
 
 Because there are 33 total students, the median is the 17th data point when sorted from least to greatest.
 
-*Approximate Data from the Graph**
+**Approximate Data from the Graph**
 From the scatter plot, most students appear to report around 1–5 hours per week, with a few reporting up to 9 or 10 hours.  
 
 When we list all 33 study times in ascending order, the 17th data point lands around 3 hours per week.
@@ -61,27 +66,26 @@ Section A’s data points are generally more to the left (fewer hours) compared 
 
 **Input:** But the correct answer of the second blank should be C. Please correct your thoughts.
 
-**Output:**
+**Output(Corrected):**
 
-## **Step-by-Step Explanation (High-School-Friendly)**
-
-### **1. Find the Median**  
+**1. Find the Median**  
 - There are 33 students total. To find the median, arrange their study times in order from smallest to largest.  
 - The median is the 17th value in that ordered list (since there are 16 values before it and 16 values after it).  
 - From the distribution on the graph, the middle value lands around **3 hours** per week.
 
-### **2. Identify Which Section Has the Lowest Average**  
+**2. Identify Which Section Has the Lowest Average**  
 - Each of the three sections (A, B, and C) has 11 students.  
 - To figure out which section has the smallest mean study time, we look at each section’s data points (the circles, squares, or black dots), sum their reported hours, and divide by 11.  
 - Although the data might look close at first glance, the official solution indicates that **Section C** actually has the smallest average study time per week. This can happen if, despite a few high-hour outliers, most of Section C’s points cluster at the lower end.
 
-### **3. Conclusion**  
+**3. Conclusion**  
 - **Median Study Time**: 3 hours/week  
 - **Section with the Smallest Average**: C
 
 ## Example 2
 **Input:**  
-"A company that designs websites primarily for minority-owned businesses conducted a survey of minority-owned businesses in the United States that do not currently have a website. The survey was designed to help determine what respondents see as the potential benefits of adding a website. The results of that survey are shown in the table.
+
+```A company that designs websites primarily for minority-owned businesses conducted a survey of minority-owned businesses in the United States that do not currently have a website. The survey was designed to help determine what respondents see as the potential benefits of adding a website. The results of that survey are shown in the table.
 
 Potential benefit	Latino (459
 respondents)	African American
@@ -101,20 +105,20 @@ Uncertain	10%	11%	13%	10%
 
 For each of the following conclusions, select Supported if it is supported by the information in the table. Otherwise select Not supported.­
 
-
 Supported	Not supported	
 		A majority of the respondents believe adding a website could benefit their businesses.
 		Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.
 		Only a small proportion of the respondents are concerned that they are losing market share."
 
-"Please explain the problem-solving steps and answer in a tone that a high school student can understand."
+----
+
+Please explain the problem-solving steps and answer in a tone that a high school student can understand.
+```
 
 
 **Output:**  
 
-## **Step-by-Step Explanation (High-School-Friendly Tone)**
-
-### **Look at Each Group’s “No Benefit” and “Uncertain” Responses**  
+**Look at Each Group’s “No Benefit” and “Uncertain” Responses**  
 These two categories combined tell us how many people don’t see a clear benefit.
 
 - **For Latino**: 27% (No benefit) + 10% (Uncertain) = **37%** → **63%** do see a benefit.  
@@ -126,7 +130,7 @@ Since in all groups **more than 50% see some benefit**, a **majority of all resp
 
 ---
 
-### **Check: “Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.”**  
+**Check: “Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.”**  
 The table shows how many in total see **"Expand customer base"** and how many in total see **"Preserve market share,"** but it does not show how many people **chose both categories**.
 
 - Because we don’t have that **overlap**, we **can’t say for sure** if **fewer than 25%** of those who chose "expand customer base" also chose "preserve market share."
@@ -134,7 +138,7 @@ The table shows how many in total see **"Expand customer base"** and how many in
 
 ---
 
-### **Check: “Only a small proportion of the respondents are concerned that they are losing market share.”**  
+**Check: “Only a small proportion of the respondents are concerned that they are losing market share.”**  
 - **“Preserve market share” responses:**  
   - Latino: **6%**  
   - African American: **6%**  
@@ -146,7 +150,7 @@ These percentages are all **fairly small**, so **only a small proportion** of re
 
 ---
 
-## **Answers**
+**Answers**
 | Statement | Conclusion |
 |-----------|------------|
 | **A majority of the respondents believe adding a website could benefit their businesses.** | ✅ **Supported** |
@@ -157,11 +161,9 @@ These percentages are all **fairly small**, so **only a small proportion** of re
 
 **Input:** No. Here the answer should be supported/supported/not supported. Please correct your thoughts.
 
-**Output:**
+**Output(Corrected):**
 
-# Step-by-Step Explanation (High-School-Friendly Tone)
-
-## 1. A majority of the respondents believe adding a website could benefit their businesses.
+ **1. A majority of the respondents believe adding a website could benefit their businesses.**
 - **What the Table Shows:**  
   For each ethnic group, add the percentages for all benefit categories (all rows except "No benefit" and "Uncertain").  
 - **Example (Latino group):**  
@@ -172,7 +174,7 @@ These percentages are all **fairly small**, so **only a small proportion** of re
 - **Conclusion:**  
   **Supported**
 
-## 2. Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.
+**2. Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.**
 - **Data Comparison:**  
   - “Expand customer base” percentages: 26% (Latino), 29% (African American), 25% (Asian American), 25% (Native American).  
   - “Preserve market share” percentages: 6% (Latino), 6% (African American), 4% (Asian American), 6% (Native American).
@@ -187,8 +189,8 @@ These percentages are all **fairly small**, so **only a small proportion** of re
 - **Conclusion:**  
   **Supported**
 
-## 3. Only a small proportion of the respondents are concerned that they are losing market share.
-- **Interpreting the Statement:**  
+**3. Only a small proportion of the respondents are concerned that they are losing market share.**
+- **Interpreting the Statement:** 
   This statement implies that very few respondents are worried about losing market share.
 - **What the Table Actually Measures:**  
   The table shows the percentage of respondents who believe adding a website would help “preserve market share” (4%–6%).  
