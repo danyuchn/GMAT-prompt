@@ -1,6 +1,6 @@
 ### [GMAT Score Report Analysis] License
 
-Copyright (C) [Dustin Yu-chen Teng] [2025]
+Copyright (C) Dustin Yu-chen Teng, 2025
 
 This software is provided under a dual licensing model:
 
@@ -8,7 +8,7 @@ This software is provided under a dual licensing model:
    This software is licensed under the MIT License for non-commercial use only. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, provided it is not for commercial purposes. See the MIT License terms below.
 
 2. **Commercial Use**:  
-   Any commercial use (including but not limited to selling the software, embedding it in a commercial product or service, or using it for profit-making purposes) requires prior written consent from the original author, [Your Name]. Please contact me at [Your Email or Contact Information] to request a commercial license or permission. Unauthorized commercial use is prohibited.
+   Any commercial use (including but not limited to selling the software, embedding it in a commercial product or service, or using it for profit-making purposes) requires prior written consent from the original author, Dustin Yu-chen Teng. Please contact me at danyuchn@gmail.com to request a commercial license or permission. Unauthorized commercial use is prohibited.
 
 ---
 
