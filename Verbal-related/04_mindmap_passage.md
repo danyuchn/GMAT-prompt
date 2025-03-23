@@ -4,7 +4,7 @@
 Please create a mind map of the passage itself.
 
 ## Function
-Draw a visual mind map for RC and MSR passages to help candidates understand and organize the logical structure of the article.
+Draw a visual mind map for RC, CR, TPA and MSR passages to help candidates understand and organize the logical structure of the article.
 
 ## Suitable For
 - Test takers who are not familiar with the article's logical structure.
