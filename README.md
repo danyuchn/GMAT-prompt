@@ -28,7 +28,7 @@ This repository compiles AI prompts I developed as a GMAT instructor. Whether yo
 ## How to Use
 - Each file includes "Instruction," "Function," "Suitable For," and "Example."  
 - Start by checking "Suitable For" to see if it matches your needs, then review "Function" for confirmation.  
-- Apply these prompts to your preferred LLM model. For example, with ChatGPT: use `o3-mini` for math-related content, `o3-mini-high` for graph-related content, and prioritize `o3-mini-high` > `o1` > `4o` for verbal-related content.
+- Apply these prompts to your preferred LLM model. For example, with ChatGPT: use `o4-mini` for math-related content, `o3` or `o4-mini-high` for graph-related content, and prioritize `o4-mini-high` > `o3` > `4o` for verbal-related content.
 
 ## Get Started
 Dive into these notes to boost your GMAT prep/tutoring! Feel free to open an issue or contact me with any suggestions or questions. Contributions are welcome—submit an issue to add content, share ideas, report errors, or provide feedback!
