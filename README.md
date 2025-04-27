@@ -16,14 +16,17 @@ This repository compiles AI prompts I developed as a GMAT instructor. Whether yo
   - Reading Comprehension  
   - Critical Reasoning  
   - Two-part Analysis (non-math related)  
-  - Data Sufficiency (non-math related)  
+  - Data Sufficiency (non-math related)
+  - Multi-source Reasoning (pure text)
+  -   
 - **Quant-related**  
   - Problem Solving  
-  - Data Sufficiency (math-related)  
+  - Data Sufficiency (math-related)
+  - Two-part Analysis (non-math related)  
 - **GraphTable-related**  
   - Graph Interpretation  
   - Table Analysis  
-  - Multi-source Reasoning  
+  - Multi-source Reasoning (with graphs or tables) 
 
 ## How to Use
 - Each file includes "Instruction," "Function," "Suitable For," and "Example."  
