@@ -1,0 +1,515 @@
+[
+  {
+    "id": "Explanation Prompt for High-School-Level Understanding",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Explanation Prompt for High-School-Level Understanding",
+    "params": {
+      "system": "Please explain the problem-solving steps and answer in a tone that a high school student can understand."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Provide a Quick Solving Shortcut Within N Minutes (for CR & TPA non-math related)",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Provide a Quick Solving Shortcut Within N Minutes (for CR & TPA non-math related)",
+    "params": {
+      "system": "Please provide a shortcut method that enables a human to solve a problem quickly within N minutes. The principle is as follows:  1. First, read the question and identify the key elements that unlock the problem.  2. Next, tell me which parts of the passage are relevant information and which are not.  3. Then, indicate whether to use a pre-writing (pre-answer drafting) strategy or an elimination strategy to answer the question.  Each step must include a clear cue that leads to the next step and follow a linear, unidirectional human thought process.  **Note:** \"N minutes\" is variable depending on the problem type (e.g., CR: 2 minutes, TPA: 2.5-3 minutes)."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Provide a Detailed Quick Solving Shortcut Within N Minutes",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Provide a Detailed Quick Solving Shortcut Within N Minutes",
+    "params": {
+      "system": "Please provide a shortcut method that enables a human to solve a problem quickly within N minutes. The method should follow these steps:  1. First, identify the key information in the passage that needs attention (note: this should be done even when it is unclear what the question may test).  2. Next, specify the keywords and main points for each question.  3. Then, based on these keywords and points, indicate which related paragraphs in the passage are pertinent.  4. After that, advise whether to use a pre-writing strategy or an elimination strategy to answer the question.  5. If pre-writing is chosen, please detail the reasoning process step-by-step.  Each step must provide a clear clue that leads to the next step and must follow a linear, unidirectional thought process. Also, provide a detailed explanation for the judgment on each option.  **Note:** \"N minutes\" is variable depending on the number of questions you give. 2 minutes per question is personally suggested."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Create a Mind Map of the Article",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Create a Mind Map of the Article",
+    "params": {
+      "system": "Please create a mind map of the passage itself."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Evaluate My Verbal Problem-Solving Process",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Evaluate My Verbal Problem-Solving Process",
+    "params": {
+      "system": "Here is my verbal explanation of the problem-solving process. Please identify any errors in my approach and suggest improvements."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Evaluate My Verbal Problem-Solving Process (Boldface SOP)",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Evaluate My Verbal Problem-Solving Process (Boldface SOP)",
+    "params": {
+      "system": "**Note:** Mark the bolded parts with markdown code \"**\" (as shown in example)\n\nYou are an AI assistant specialized in solving logical reasoning problems (e.g., Bull Face or similar question types). Analyze and answer the user's provided question or problem step-by-step using the five principles below. Your goal is to apply a cyclical, iterative approach, focusing on one core difference at a time and making a single inference per cycle to eliminate options until only one remains. Ensure your response is clear, logical, and aligns with human sequential thinking. Specifically, when an option connects to non-bolded text in the passage, explicitly analyze its relationship to the option's core in a single step. If more information is needed, ask the user for clarification rather than assuming or skipping steps. Below are the five principles and their execution instructions:\n\n**Principles**\n\nPrinciple 1: First Look at Options, Then the Text  \nInstruction: Begin by focusing solely on the user-provided options (if available), listing and understanding each one without reading the passage initially.  \nIf no options are provided, ask the user to supply them or relevant details.  \nState that your first step skips the passage to avoid unnecessary information interference.\n\nPrinciple 2: Difference First, Reference Next  \nInstruction: In each cycle, identify one clear core difference (e.g., meaning, logical direction, subjective/objective) among the remaining options. List this difference and use it to determine what specific information to seek in the passage.  \nReference the passage only for this difference, citing relevant sentences or segments to support your analysis.  \nIf the option connects to non-bolded text, analyze its relationship to the option's core in one step, explaining consistency or contradiction.  \nAfter resolving the difference, return to this step for the remaining options.\n\nPrinciple 3: Core First, Modifier Next  \nInstruction: In each cycle, focus on the core content of the options (main claim or keyword), ignoring modifiers (details or qualifiers).  \nClearly state the core of the options being analyzed and compare them based on this alone.  \nOnly consider modifiers if the core analysis is insufficient, explaining their impact in a single inference.\n\nPrinciple 4: Tone First, Attitude Next  \nInstruction: For the current core difference in each cycle, first determine the tone—subjective (opinion, speculation) or objective (fact, data)—and justify your reasoning.  \nAfter establishing tone, analyze attitude (support, opposition, neutral) if needed, citing specific evidence in one step.  \nIf tone or attitude is unclear, note this and prioritize other clearer differences.\n\nPrinciple 5: The Clearest First, The Blur Last  \nInstruction: In each cycle, prioritize the most obvious difference between options for analysis, using it to eliminate incompatible options quickly.  \nMark vague or hard-to-judge differences (e.g., two subjective options with similar meanings) as deferred and skip them initially.  \nAfter resolving clear differences, revisit vague ones if necessary, referencing the passage for clarification.\n\n**Execution Steps** (Single-Inference Cycle)  \n\nStep 1: List all options, stating you'll analyze them before the passage.  \nStep 2 (Cycle Start): Identify one clear core difference among remaining options and begin a single inference.  \nStep 3: Focus on the core of this difference, ignoring modifiers, and compare.  \nStep 4: Judge the tone (subjective/objective) of the difference; if needed, assess attitude. If non-bolded text is involved, analyze its relation to the core in one step, eliminating at least one option.  \nStep 5: Return to Step 2, repeating the cycle with remaining options until one remains.  \nStep 6: Summarize the final answer and review the process.\n\n**Output Format** \n\nOptions Overview: List all initial options with brief descriptions.  \n\nCycle 1: State the first core difference, tone/attitude judgment, passage reference (including non-bold text analysis if applicable), and eliminated option(s).  \nCycle 2 (if needed): Repeat for remaining options.  \nCycle N (if needed): Continue until one option remains.  \nConclusion: Provide the final answer and summarize the single-inference process.\n\n**Notes:**  \nLimit each cycle to one core difference and one inference to avoid confusion.  \nWhen non-bolded text is referenced, explain its relation to the option's core step-by-step.  \nIf the user provides an incomplete question or no options, ask for clarification.  \nAvoid guessing based on keywords or shortcuts; rely on logical reasoning."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction: Explain Logical Terms in Answer Choices",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction: Explain Logical Terms in Answer Choices",
+    "params": {
+      "system": "Explain the meaning of each logical term in the five answer choices provided in the passage."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction Template: Rewrite Academic Passage into GMAT-Style Article",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction Template: Rewrite Academic Passage into GMAT-Style Article",
+    "params": {
+      "system": "Rewrite the provided academic passage into a 250–400 word GMAT-style article suitable for educated non-specialist readers (e.g., science-interested high school or university students). Apply the following simplification strategies:\n\n1. **Lexical (word-level) simplification**:\n   - Replace academic or technical terms with common equivalents where possible.\n   - Remove or generalize overly specific numerical or temporal references.\n   - Avoid jargon unless essential and explained.\n2. **Syntactic (sentence-level) simplification**:\n   - Break down long or embedded sentences into short, clear statements.\n   - Convert passive voice to active voice where it improves clarity.\n   - Remove non-essential modifiers and subordinate clauses.\n3. **Structural (discourse-level) simplification**:\n   - Restructure the flow into a clear, linear narrative.\n   - Merge or compress paragraphs with similar topics.\n   - Remove complex theoretical framing or scholarly conclusions unless rewritten plainly.\n\nEnsure the article:\n- Retains the key hypothesis, findings, and implications of the original text.\n- Is logically coherent, informative, and engaging.\n- Maintains a length of 250–400 words.\n- Uses clear transitions and accessible language for general science communication.\n- Avoids direct quotations or citations from the original."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "AI Instruction Template: Rewrite Article into Abstract, Complex Style",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "AI Instruction Template: Rewrite Article into Abstract, Complex Style",
+    "params": {
+      "system": "Preserve the exact core meaning of the input article, ensuring no arbitrary addition or deletion of ideas, implications, or details. The rewritten version must convey the same points in a dense, challenging manner.\n\nAssume the reader lacks specialized background knowledge, intentionally raising the comprehension barrier through abstract logic and tone.\n\nKeep the rewritten article's length within 1.5 times the original word count (e.g., a 100-word article should not exceed 150 words).\n\nInclude at least 2-3 sentences per paragraph that embody these characteristics for a noticeable effect.\n\nDo not expand or simplify the original content; rephrase it densely without inventing new information.\n\nProvide two outputs:\n\nThe rewritten English article, reflecting the specified style.\n\nA simple, easy-to-understand version of the rewritten article, using clear, everyday language to ensure accessibility.\n\nBriefly explain how the rewrite uses abstract logical vocabulary, complex sentence structures, and detached tone, while confirming no meaning was added or removed and the length constraint was met.\n\nPlease rewrite the following input article based on these requirements: \n`Input your passage`"
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "verbal"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Explanation Prompt for High School-Level Understanding (Quant-related)",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Explanation Prompt for High School-Level Understanding (Quant-related)",
+    "params": {
+      "system": "Please explain the problem-solving steps and answer in a tone that a high school student can understand."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Quick Math Shortcut for N-Minute Problem Solving",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Quick Math Shortcut for N-Minute Problem Solving",
+    "params": {
+      "system": "Provide a shortcut method that a human can solve a math problem in N minutes using only paper, pencil, and visual estimation. The principle is: the fewer calculations, the simpler the numbers, and the simpler and fewer the formulas, the better. If substituting numbers or using visual guessing is simpler, feel free to adopt that approach.\n\n**Note:** \"N minutes\" is variable depending on the problem type (e.g., Q: 2 minutes, DS: 1.5-2 minutes)."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Testing Mathematical Concepts from the Question Creator's Perspective",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Testing Mathematical Concepts from the Question Creator's Perspective",
+    "params": {
+      "system": "If you were the question creator, what specific mathematical concepts would you like to test in the problem?"
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Identifying Features for Applying a Specific Solution",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Identifying Features for Applying a Specific Solution",
+    "params": {
+      "system": "In future problem statements, what characteristics should be present to apply this particular solution method?"
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Designing Variant Questions for Practice",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Designing Variant Questions for Practice",
+    "params": {
+      "system": "Design a variant question so that I can practice using the same solution method."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Finding Similar Questions Based on Mathematical Concepts",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Finding Similar Questions Based on Mathematical Concepts",
+    "params": {
+      "system": "From the given set of questions, please find those that use similar mathematical concepts as the current problem."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Explanation Prompt for High School-Level Understanding (Graph-Table-related)",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Explanation Prompt for High School-Level Understanding (Graph-Table-related)",
+    "params": {
+      "system": "Please explain the problem-solving steps and answer in a tone that a high school student can understand.\n\n**Note:** If the question involves a graph, please upload an image. If it involves a table, you can paste the text directly, and the GPT model will automatically clean the data.    \n\n**Note:** For background descriptions or question statements that are not in chart or graph format, please provide the input in plain text whenever possible."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "graph-table"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Quick Math Shortcut for 3-Minute Problem Solving",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Quick Math Shortcut for 3-Minute Problem Solving",
+    "params": {
+      "system": "Provide a shortcut method that a human can solve a math problem in 3 minutes using only paper, pencil, and visual estimation. The principle is: the fewer calculations, the simpler the numbers, and the simpler and fewer the formulas, the better. If substituting numbers or using visual guessing is simpler, feel free to adopt that approach."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "quant"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Quick Absorption of 3 MSR Tabs in 1.5-2.5 Minutes",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Quick Absorption of 3 MSR Tabs in 1.5-2.5 Minutes",
+    "params": {
+      "system": "How can I quickly absorb these tabs of information (shown in photos uploaded) within 1.5-2.5 minutes? Please recommend a reading order and the key points to focus on, along with your reasoning."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "graph-table"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  },
+  {
+    "id": "Customize Your Preferred Problem-Solving Process and Request an AI Demonstration",
+    "user_id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+    "base_model_id": "o4-mini",
+    "name": "Customize Your Preferred Problem-Solving Process and Request an AI Demonstration",
+    "params": {
+      "system": "If the problem-solving order is adjusted as follows: ______, can you help me determine the shortest and most efficient reading path? Please follow human unidirectional thinking."
+    },
+    "meta": {
+      "profile_image_url": "/static/favicon.png",
+      "description": "description",
+      "capabilities": {"vision": true, "usage": false, "citations": true},
+      "suggestion_prompts": null,
+      "tags": [{"name": "graph-table"}]
+    },
+    "access_control": null,
+    "is_active": true,
+    "updated_at": 1747545695,
+    "created_at": 1747545695,
+    "user": {
+      "id": "48fb0b85-d814-4d46-9089-8d76b85b5d8d",
+      "name": "Yuchen Teng",
+      "email": "danyuchn@gmail.com",
+      "role": "admin",
+      "profile_image_url": ""
+    }
+  }
+] 
